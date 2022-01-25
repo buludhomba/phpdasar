@@ -1,6 +1,10 @@
 <?php
 
+// simulasi loading menggunakan sleep
+sleep(1);
 require '../functions.php';
+
+
 $keyword = $_GET["keyword"];
 
 $query = "SELECT * FROM mahasiswa 
